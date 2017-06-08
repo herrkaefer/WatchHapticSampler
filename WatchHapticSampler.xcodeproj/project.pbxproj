@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB353FCB1EE9053E00495A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB353FCA1EE9053E00495A57 /* AppDelegate.swift */; };
+		EB353FCD1EE9053E00495A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB353FCC1EE9053E00495A57 /* ViewController.swift */; };
+		EB353FD01EE9053E00495A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB353FCE1EE9053E00495A57 /* Main.storyboard */; };
+		EB353FD21EE9053E00495A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB353FD11EE9053E00495A57 /* Assets.xcassets */; };
+		EB353FD51EE9053E00495A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB353FD31EE9053E00495A57 /* LaunchScreen.storyboard */; };
+		EB353FDA1EE9053E00495A57 /* WatchHapticSampler WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB353FD91EE9053E00495A57 /* WatchHapticSampler WatchKit App.app */; };
+		EB353FE01EE9053E00495A57 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB353FDE1EE9053E00495A57 /* Interface.storyboard */; };
+		EB353FE21EE9053E00495A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB353FE11EE9053E00495A57 /* Assets.xcassets */; };
+		EB353FE91EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB353FE81EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB353FEE1EE9053E00495A57 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB353FED1EE9053E00495A57 /* InterfaceController.swift */; };
+		EB353FF01EE9053E00495A57 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB353FEF1EE9053E00495A57 /* ExtensionDelegate.swift */; };
+		EB353FF21EE9053E00495A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB353FF11EE9053E00495A57 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB353FDB1EE9053E00495A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB353FBF1EE9053E00495A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB353FD81EE9053E00495A57;
+			remoteInfo = "WatchHapticSampler WatchKit App";
+		};
+		EB353FEA1EE9053E00495A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB353FBF1EE9053E00495A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB353FE71EE9053E00495A57;
+			remoteInfo = "WatchHapticSampler WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB353FF91EE9053E00495A57 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB353FE91EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB353FFD1EE9053E00495A57 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB353FDA1EE9053E00495A57 /* WatchHapticSampler WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB353FC71EE9053E00495A57 /* WatchHapticSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchHapticSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB353FCA1EE9053E00495A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB353FCC1EE9053E00495A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB353FCF1EE9053E00495A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB353FD11EE9053E00495A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB353FD41EE9053E00495A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB353FD61EE9053E00495A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB353FD91EE9053E00495A57 /* WatchHapticSampler WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchHapticSampler WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB353FDF1EE9053E00495A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EB353FE11EE9053E00495A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB353FE31EE9053E00495A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB353FE81EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchHapticSampler WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB353FED1EE9053E00495A57 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EB353FEF1EE9053E00495A57 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EB353FF11EE9053E00495A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB353FF31EE9053E00495A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB353FC41EE9053E00495A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB353FE51EE9053E00495A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB353FBE1EE9053E00495A57 = {
+			isa = PBXGroup;
+			children = (
+				EB353FC91EE9053E00495A57 /* WatchHapticSampler */,
+				EB353FDD1EE9053E00495A57 /* WatchHapticSampler WatchKit App */,
+				EB353FEC1EE9053E00495A57 /* WatchHapticSampler WatchKit Extension */,
+				EB353FC81EE9053E00495A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB353FC81EE9053E00495A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB353FC71EE9053E00495A57 /* WatchHapticSampler.app */,
+				EB353FD91EE9053E00495A57 /* WatchHapticSampler WatchKit App.app */,
+				EB353FE81EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB353FC91EE9053E00495A57 /* WatchHapticSampler */ = {
+			isa = PBXGroup;
+			children = (
+				EB353FCA1EE9053E00495A57 /* AppDelegate.swift */,
+				EB353FCC1EE9053E00495A57 /* ViewController.swift */,
+				EB353FCE1EE9053E00495A57 /* Main.storyboard */,
+				EB353FD11EE9053E00495A57 /* Assets.xcassets */,
+				EB353FD31EE9053E00495A57 /* LaunchScreen.storyboard */,
+				EB353FD61EE9053E00495A57 /* Info.plist */,
+			);
+			path = WatchHapticSampler;
+			sourceTree = "<group>";
+		};
+		EB353FDD1EE9053E00495A57 /* WatchHapticSampler WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EB353FDE1EE9053E00495A57 /* Interface.storyboard */,
+				EB353FE11EE9053E00495A57 /* Assets.xcassets */,
+				EB353FE31EE9053E00495A57 /* Info.plist */,
+			);
+			path = "WatchHapticSampler WatchKit App";
+			sourceTree = "<group>";
+		};
+		EB353FEC1EE9053E00495A57 /* WatchHapticSampler WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB353FED1EE9053E00495A57 /* InterfaceController.swift */,
+				EB353FEF1EE9053E00495A57 /* ExtensionDelegate.swift */,
+				EB353FF11EE9053E00495A57 /* Assets.xcassets */,
+				EB353FF31EE9053E00495A57 /* Info.plist */,
+			);
+			path = "WatchHapticSampler WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB353FC61EE9053E00495A57 /* WatchHapticSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB353FFE1EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler" */;
+			buildPhases = (
+				EB353FC31EE9053E00495A57 /* Sources */,
+				EB353FC41EE9053E00495A57 /* Frameworks */,
+				EB353FC51EE9053E00495A57 /* Resources */,
+				EB353FFD1EE9053E00495A57 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB353FDC1EE9053E00495A57 /* PBXTargetDependency */,
+			);
+			name = WatchHapticSampler;
+			productName = WatchHapticSampler;
+			productReference = EB353FC71EE9053E00495A57 /* WatchHapticSampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB353FD81EE9053E00495A57 /* WatchHapticSampler WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB353FFA1EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler WatchKit App" */;
+			buildPhases = (
+				EB353FD71EE9053E00495A57 /* Resources */,
+				EB353FF91EE9053E00495A57 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB353FEB1EE9053E00495A57 /* PBXTargetDependency */,
+			);
+			name = "WatchHapticSampler WatchKit App";
+			productName = "WatchHapticSampler WatchKit App";
+			productReference = EB353FD91EE9053E00495A57 /* WatchHapticSampler WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EB353FE71EE9053E00495A57 /* WatchHapticSampler WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB353FF61EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler WatchKit Extension" */;
+			buildPhases = (
+				EB353FE41EE9053E00495A57 /* Sources */,
+				EB353FE51EE9053E00495A57 /* Frameworks */,
+				EB353FE61EE9053E00495A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchHapticSampler WatchKit Extension";
+			productName = "WatchHapticSampler WatchKit Extension";
+			productReference = EB353FE81EE9053E00495A57 /* WatchHapticSampler WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB353FBF1EE9053E00495A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HerrKaefer;
+				TargetAttributes = {
+					EB353FC61EE9053E00495A57 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VM93P947X;
+						ProvisioningStyle = Automatic;
+					};
+					EB353FD81EE9053E00495A57 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VM93P947X;
+						ProvisioningStyle = Automatic;
+					};
+					EB353FE71EE9053E00495A57 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6VM93P947X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB353FC21EE9053E00495A57 /* Build configuration list for PBXProject "WatchHapticSampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB353FBE1EE9053E00495A57;
+			productRefGroup = EB353FC81EE9053E00495A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB353FC61EE9053E00495A57 /* WatchHapticSampler */,
+				EB353FD81EE9053E00495A57 /* WatchHapticSampler WatchKit App */,
+				EB353FE71EE9053E00495A57 /* WatchHapticSampler WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB353FC51EE9053E00495A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB353FD51EE9053E00495A57 /* LaunchScreen.storyboard in Resources */,
+				EB353FD21EE9053E00495A57 /* Assets.xcassets in Resources */,
+				EB353FD01EE9053E00495A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB353FD71EE9053E00495A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB353FE21EE9053E00495A57 /* Assets.xcassets in Resources */,
+				EB353FE01EE9053E00495A57 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB353FE61EE9053E00495A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB353FF21EE9053E00495A57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB353FC31EE9053E00495A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB353FCD1EE9053E00495A57 /* ViewController.swift in Sources */,
+				EB353FCB1EE9053E00495A57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB353FE41EE9053E00495A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB353FF01EE9053E00495A57 /* ExtensionDelegate.swift in Sources */,
+				EB353FEE1EE9053E00495A57 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB353FDC1EE9053E00495A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB353FD81EE9053E00495A57 /* WatchHapticSampler WatchKit App */;
+			targetProxy = EB353FDB1EE9053E00495A57 /* PBXContainerItemProxy */;
+		};
+		EB353FEB1EE9053E00495A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB353FE71EE9053E00495A57 /* WatchHapticSampler WatchKit Extension */;
+			targetProxy = EB353FEA1EE9053E00495A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB353FCE1EE9053E00495A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB353FCF1EE9053E00495A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB353FD31EE9053E00495A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB353FD41EE9053E00495A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB353FDE1EE9053E00495A57 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB353FDF1EE9053E00495A57 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB353FF41EE9053E00495A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB353FF51EE9053E00495A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB353FF71EE9053E00495A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				INFOPLIST_FILE = "WatchHapticSampler WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		EB353FF81EE9053E00495A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				INFOPLIST_FILE = "WatchHapticSampler WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		EB353FFB1EE9053E00495A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				IBSC_MODULE = WatchHapticSampler_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchHapticSampler WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		EB353FFC1EE9053E00495A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				IBSC_MODULE = WatchHapticSampler_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchHapticSampler WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		EB353FFF1EE9053E00495A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				INFOPLIST_FILE = WatchHapticSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB3540001EE9053E00495A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VM93P947X;
+				INFOPLIST_FILE = WatchHapticSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = herrkaefer.WatchHapticSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB353FC21EE9053E00495A57 /* Build configuration list for PBXProject "WatchHapticSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB353FF41EE9053E00495A57 /* Debug */,
+				EB353FF51EE9053E00495A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB353FF61EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB353FF71EE9053E00495A57 /* Debug */,
+				EB353FF81EE9053E00495A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB353FFA1EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB353FFB1EE9053E00495A57 /* Debug */,
+				EB353FFC1EE9053E00495A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB353FFE1EE9053E00495A57 /* Build configuration list for PBXNativeTarget "WatchHapticSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB353FFF1EE9053E00495A57 /* Debug */,
+				EB3540001EE9053E00495A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB353FBF1EE9053E00495A57 /* Project object */;
+}

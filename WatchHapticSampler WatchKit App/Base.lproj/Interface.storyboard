@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchHapticSampler_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <picker height="100" alignment="left" focusStyle="sequence" id="5Oi-U6-zig">
+                            <connections>
+                                <action selector="pickerDidChange:" destination="AgC-eL-Hgc" id="6Or-Ve-VLn"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Play Haptic" id="Z9u-gi-z27">
+                            <connections>
+                                <action selector="playHaptic" destination="AgC-eL-Hgc" id="Uyf-PM-PMv"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="5Oi-U6-zig" id="YWl-3q-oxC"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
