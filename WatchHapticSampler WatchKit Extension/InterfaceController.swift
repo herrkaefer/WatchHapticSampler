@@ -29,14 +29,11 @@ class InterfaceController: WKInterfaceController {
     
     var hapticType = WKHapticType.notification
     
-    
-    // Use the index from the picker as the rawValue for the WKHapticType
     @IBAction func pickerDidChange(_ value: Int) {
-        print("picker changed")
         hapticType = WKHapticType(rawValue: value)!
         WKInterfaceDevice.current().play(.click)
     }
-    
+
     
     @IBAction func playHaptic() {
         WKInterfaceDevice.current().play(hapticType)
@@ -50,14 +47,6 @@ class InterfaceController: WKInterfaceController {
             pickerItem.caption = "Haptic Type"
             return pickerItem
         }
-        
-//        var pickerItems = [WKPickerItem]()
-//        for item in titles {
-//            let pickerItem = WKPickerItem()
-//            pickerItem.title = item
-//            pickerItem.caption = "Haptic Type"
-//            pickerItems.append(pickerItem)
-//        }
         picker.setItems(pickerItems)
     }
     
@@ -65,10 +54,4 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         setPickerItems()
     }
-    
-//    override func willActivate() {
-//        super.willActivate()
-//        refreshPickerItems()
-//    }
-    
 }

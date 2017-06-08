@@ -14,14 +14,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchHapticSampler_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <picker height="100" alignment="left" focusStyle="sequence" id="5Oi-U6-zig">
+                        <picker width="136" height="104" alignment="left" focusStyle="sequence" id="5Oi-U6-zig">
                             <connections>
                                 <action selector="pickerDidChange:" destination="AgC-eL-Hgc" id="6Or-Ve-VLn"/>
                             </connections>
                         </picker>
-                        <button width="1" alignment="left" title="Play Haptic" id="Z9u-gi-z27">
+                        <button width="1" alignment="left" title="Play Haptic" id="Wqu-tq-0Mb">
                             <connections>
-                                <action selector="playHaptic" destination="AgC-eL-Hgc" id="Uyf-PM-PMv"/>
+                                <action selector="playHaptic" destination="AgC-eL-Hgc" id="Jnh-m2-6UA"/>
                             </connections>
                         </button>
                     </items>
@@ -30,6 +30,7 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="34" y="37"/>
         </scene>
     </scenes>
 </document>
